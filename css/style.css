@@ -24,3 +24,32 @@
     flex: 1;
     width:100%;
 }
+.carousel-container 
+{
+    display: flex;
+    position: absolute;
+    width: 78%;
+    left: 11%;    
+    bottom:13%;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.5);
+    flex-direction: row;    
+    align-content: space-between;
+    overflow: hidden;
+}
+.carousel-item {
+    flex: 1; 
+    padding: 5px;
+    overflow: hidden;
+}
+
+.carousel-item.highlighted {
+    flex: 1; 
+    padding: 5px;
+    overflow: hidden;
+    background: rgba(212, 212, 212, 0.699);
+}
+
+.carousel-item > img {
+    max-width: 350px;    
+}
