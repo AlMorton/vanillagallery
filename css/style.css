@@ -1,3 +1,7 @@
+body{
+    background: #000;
+    color: #fff;
+}
 .gallery-container {
     position: relative;
     display: flex;
@@ -49,8 +53,8 @@
 {
     display: flex;
     position: relative;
-    width: 78%;
-    left: 11%;    
+    width: 80%;
+    left: 10%;   
     bottom:13%;
     height: 200px;
     background: rgba(0, 0, 0, 0.5);
@@ -62,6 +66,7 @@
     flex: 1; 
     padding: 5px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .carousel-item.highlighted {
