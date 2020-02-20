@@ -19,11 +19,13 @@ body{
     position: absolute;
     height: inherit;
     width:100px;
-    border: 1px solid black;
     background: rgba(255, 255, 255, 0.274);
     color: #fff;
     cursor: pointer;
     z-index: 1;
+}
+.control-button:hover > i {
+    font-weight: 900;
 }
 
 .gallery-container > .control-button.left {

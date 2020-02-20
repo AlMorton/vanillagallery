@@ -14,8 +14,8 @@ function setUp() {
 
     images.forEach((image, key) => {
 
-        var imageNode = document.createElement('img');
-        imageNode.src = image.src;      
+        var imageNode = new Image();
+        imageNode.src = image.src;                   
             
         var divNode = document.createElement('div');
         divNode.className = 'carousel-item';
