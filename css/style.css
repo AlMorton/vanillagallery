@@ -81,3 +81,10 @@ body{
 .carousel-item > img {
     max-width: 350px;    
 }
+
+#test-canvas {
+    margin: 0 auto;
+    width: 1400px;
+    height: 800px; 
+    background: #383838;
+}
